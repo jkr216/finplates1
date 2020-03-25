@@ -1,0 +1,80 @@
+---
+title: "Finance Template"
+output: html_document
+---
+
+```{r setup, include = FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(tidyquant)
+library(tidymodels)
+library(timetk)
+library(highcharter)
+library(readxl)
+library(corrr)
+library(scales)
+library(plotly)
+library(lubridate)
+library(janitor)
+library(riingo)
+library(tsibble)
+library(fable)
+library(feasts)
+library(config)
+
+# Uncomment the line below, add the name of your project and add your riingo api key to the config.yml file
+# config::get("riingo", file = "~/name_of_project/config.yml") %>% riingo_set_token()
+
+knitr::opts_chunk$set(message=FALSE, warning=FALSE)
+```
+
+
+### Import Data 
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+### Wrangle Data
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+### Visualize Data
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+### Model Data
+
+```{r}
+
+```
+
+### Communicate Results
+
+```{r}
+```
+
+
+```{r}
+```
+
